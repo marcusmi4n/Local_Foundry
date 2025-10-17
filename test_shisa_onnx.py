@@ -37,7 +37,7 @@ def test_onnx_model():
     print("="*70)
     print()
 
-    model_path = "models/Shisa_ONNX"
+    model_path = "marcusmi4n/shisa-v2-qwen2.5-7b-onnx"
 
     print(f"📁 Loading model from: {model_path}")
 
@@ -143,7 +143,7 @@ def test_onnx_model():
     print(f"📊 Total tokens generated: {total_tokens}")
     print(f"⏱️  Total generation time: {total_time:.2f}s")
     print(f"🚀 Average speed: {total_tokens/total_time:.2f} tokens/sec")
-    print(f"💾 Model size: ~527MB (FP32 ONNX)")
+    print(f"💾 Model size: ~29GB (FP32 ONNX)")
     print("="*70)
 
     return True
